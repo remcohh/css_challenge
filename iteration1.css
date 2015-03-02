@@ -1,0 +1,109 @@
+body{
+    font-family: 'Droid Sans';
+}
+
+p,  button{
+    text-align: center;
+    font-size:11px;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+img{
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.floating{
+    float:left
+}
+
+.center_wrapper{
+    margin: auto;
+    width: 100%;
+}
+
+
+#top_container{
+    height: 476px;
+    background-color: #3f51b5;
+    margin-top: 50px; /* /niet nader gespecificeerd */
+    margin-left: 50px; /* niet nader gespecificeerd */
+    margin-right: 50px; /* niet nader gespecificeerd */
+}
+
+#top_container h1{
+    color: #ffffff;
+    padding-top: 140px;
+    font-size: 40px;
+}
+
+#top_container p{
+    color: #ffffff;
+    margin-left:280px;
+    margin-right:280px;
+}
+
+
+#top_container button{
+    display:block;
+    margin: 0 auto;
+    margin-top:40px;
+    background-color: #03a9f4;
+    color: #ffffff;
+    border:0px;
+}
+
+#middle_container{
+     width: 900px;
+     height: 504px;
+     text-align: center;
+     margin: 0 auto;
+     background-color: #ffffff;
+
+ }
+
+#middle_container .center_wrapper{
+    margin: auto;
+    width: 940px;
+}
+
+#middle_container .content{
+    display:inline-block;
+    width: 400px;
+    padding: 20px;
+
+}
+
+#bottom_container{
+    height: 756px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #c5cae9;
+    margin-left: 50px; /* niet nader gespecificeerd */
+    margin-right: 50px; /* niet nader gespecificeerd */
+}
+
+#bottom_container h2{
+    padding-top: 50px;
+    color: #ffffff
+}
+
+#bottom_container .center_wrapper{
+    margin: auto;
+    width: 900px;
+}
+
+#bottom_container .content{
+    display:inline-block;
+    width: 260;
+    margin: 10px;
+    padding: 10px;
+    background-color: #ffffff;
+
+}
+
